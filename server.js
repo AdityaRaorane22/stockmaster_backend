@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-  origin: "https://stockmaster-backend-1oxp.onrender.com/",
+  origin: "https://stockmaster-frontend.vercel.app/",
   credentials: true
 }));
 app.use(express.json());
